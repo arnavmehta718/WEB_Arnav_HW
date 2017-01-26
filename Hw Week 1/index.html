@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- the title tag is requiered and shows up as the main text in a search result and as the title on our browser -->
+	<title>Hello HTML</title>
+	<!-- charset attribute specifies the character encoding of our webpage
+	-->
+	<meta charset="UTF-8">
+	<!-- these are optional metadata tags that help with SEO and search engine result rendering -->
+	<meta name="description" content="This is a sample description. It will show up under the big title link in a search result">
+	<meta name="keywords" content="HTML, CSS, tutorial">
+	<meta name="author" content="Some Company">
+	<!-- we can also link to our css files and javascript files in the head of our document. More on that when we start CSS next week! -->
+</head>
+
+<body>
+	<a href="#bottom">Bottom of page</a>
+	<p>This is a paragraph with some basic markup within it. <em>This is a paragraph with some basic markup within it. </em> This is a paragraph with some basic markup within it. This is a <strong>paragraph</strong> with some basic markup within it. This is a paragraph with some basic markup within it. This is a paragraph with some basic markup within it. This is a paragraph with some basic markup within it. This is a paragraph with some basic markup within it.</p>
+
+	<p>this is a parapgrah with some line breaks in it. <br>Use with caution, never use break tags to change the presentation, there should be a semantic reason for using them.</p>
+
+	<h1 id="top">This is a H1 Heading</h1>
+	<h2>This is a H2 Heading</h2>
+	<h3>This is a H3 Heading</h3>
+	<h4>This is a H4 Heading</h4>
+	<h5>This is a H5 Heading</h5>
+	<h6>This is a H6 Heading</h6>
+
+	<p>This is a paragraph with <small>some small text</small></p>
+	<p>This is a paragraph with <big>some big text</big></p>
+	
+	<hr>
+	<!-- Ordered lists render with an order. the order is numerical by defualt we can change te lsit style type with css soon -->
+	<ol>
+		<li>Item1</li>
+		<li>Item2</li>
+		<li>Item3</li>
+	</ol>
+	<!-- unordered lists render in order but the order is less important semantically. They render as a bulleted list by defualt -->
+	<ul>
+		<li>Pidgeons</li>
+		<li>Umbrellas</li>
+		<li>Dog Poop</li>
+	</ul>
+
+	<!-- we can also nest lists -->
+	<ul>
+		<li>Pidgeons
+			<ul>
+				<li>Passenger</li>
+				<li>Messenger</li>	
+				<li>Carrier</li>
+			</ul>
+		</li>
+		<li>Umbrellas</li>
+		<li>Dog Poop</li>
+	</ul>
+
+	<p>This is a paragraph with a link to <a href="https://www.google.com">google</a> in it. This is an external link. External links require absolute urls. This means the full web address </p>
+
+	<p>This is a paragraphy with a link to <a href="about.html">another page</a> or file on this server/site. These are internal link. Internal links can be relative URLS</p>
+
+	<!-- We can also link to IDed elements or sections of our page. -->
+	<a href="#top">Back to Top</a>
+	<hr id="bottom">
+	<img src="http://possector.com/wordpress/wp-content/uploads/2014/07/restaurant-food-presentation-ideas-vertical.jpg" alt="food on a plate" title="FOOD GOALS" width="1000px">
+	<img src="img/dessert_1.png" alt="Dessert on a plate" title="Dessert Goals" width="1000">
+</body>
+
+</html>
