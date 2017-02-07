@@ -1,0 +1,27 @@
+The main page
+	- recipes
+		- Main Ingredient
+			- Chicken
+				- Baked Chicken
+				- Chicken Breast
+				- etc...
+			- Beef
+			- Pork
+		- Global
+		- Dish
+		- Preperation
+		- Meal Types
+		- Holidays & Entertainment
+		- Health & Diet
+	- everyday meals
+		- Slow Cooker
+		- Family Dessert
+		- Breakfast & Brunch
+		- Lunch
+	- Desserts
+		- Cupcakes
+		- Cookies
+		- Brownies 
+		- Pies
+	- Snacks
+	- Holiday & Entertainment
