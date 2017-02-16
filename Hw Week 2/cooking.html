@@ -2,86 +2,139 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <title>Cooking-Recipe</title>
-    <meta name="description" content="recipe for Pound Cake">
+	<title>Cooking-recipe</title>
+	<meta name="description" content="recipe for Pound Cake">
     <meta name="keywords" content="Pound Cake, Dessert, Food">
     <meta name="author" content="Arnav_Mehta">
     <style type="text/css">
-    	div {
-            background-color: rgba(255, 255, 255, 0.2);
-        }
-        .direction{
-        	width: 900px;
-        	padding:0%;
-        	margin: 0 auto;
-        	height:310px;
-        }
-        .direction2{
-        	width: 900px;
-        	padding:0%;
-        	margin: 0 auto;
-        	height:210px;
-        }
-        .step{
-        	width:300px;
-        	padding: 1%
-        	margin: 10px, 15px;
-        	height: 98%;
-        	float: left;
-        }
-        .step2{
-        	width:300px;
-        	padding: 1%
-        	margin: 10px, 15px;
-        	height: 98%;
-        	float: left;
-        }
+    	*{
+    		margin: 0;
+    		padding: 0;
+    	}
+
+    	body{
+    		font-family: "helvetica Neue", Helvetica, Arial, sans-serif;
+    	}
+		
+		header{
+			background-color: tomato;
+			width: 100%;
+			height: 100px;
+		}
+		
+		header h1{
+			color: white;
+			display: inline-block;
+			line-height: 100px;
+			float: left;
+			overflow: hidden;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		header nav{
+			display: inline-block;
+			float: center;
+			height: 100px;
+			overflow: hidden;
+		}
+
+		nav ul{
+      		list-style-type: none;
+      		text-align: center;
+      		line-height: 90px;
+    	}
+
+    	nav ul li{
+      		display: inline-block;
+      		margin: auto;
+      		border: 5px solid cornsilk;
+      		background-color: tomato;	 
+    	}
+
+    	nav ul li a{
+      		display: block;
+      		padding: 0 20px;
+      		color: white;
+      		text-decoration: none;  
+    	}
+
+    	nav ul li a:hover{
+      		background-color: black;
+    	}
+
+    	.nav-bar{
+    		position: fixed;
+    	}
+
+		main{
+      		padding-top: 100px;
+     	 	width: 90%
+     	 	margin 0 auto;
+    	}
+		
+		main h2{
+			margin-left: 10%;
+			margin-top: 8%;
+		}
+
+		main p{
+			margin-left: 10%;
+			width: 90%;
+		}
+		main ul{
+			margin-left: 12%;
+			width: 90%;
+		}
+
+		main img{
+			float: right;
+			padding-right: 30%;
+		}
     </style>
 </head>
-
 <body>
-	<h1>Pound Cake</h1>
-	<h4>Ingredients</h4>
-	<ul>
-		<li>1/2 pound butter (plus more for pan)</li>
-		<li>1/2 cup vegatable shortening</li>
-		<li>3 cups sugar</li>
-		<li>5 eggs</li>
-		<li>3 cups all-purpose flour, plus more for pan</li>
-		<li>1/2 teaspoon fine salt</li>
-		<li>1/2 teaspoon baking powder</li>
-		<li>1 cup milk</li>
-		<li>1 teaspoon vanilla extract</li>	
-	</ul>
-	<h4>Directions</h4>
-	<div class="direction">
-		<div class="step">
-			<ul> 
-				<li>Preheat oven to 350 degrees F.</li>
-				<li>With a mixer, cream butter and shortening together.</li>
-				<li>Add sugar, a little at a time.</li>
-				<li>Add eggs, 1 at a time, beating after each addition.</li>
-				<li>Stir dry ingredients together in a bowl and add to mixer alternately with milk, starting with the flour and ending with the flour.</li>
-				<li>Mix in vanilla.</li> 
+	<header class="nav-bar">
+		<h1>Pound Cake</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Recipe</a></li>
+				<li><a href="#">Directions</a></li>
 			</ul>
-		</div>
-		<div class="step"> <img src="bowl.jpg" width="300"></div>
-	</div>
-	<div class="direction2">
-		<div class="step2">
-			<ul> 
-				<li>Pour into a greased and floured tube pan and bake for 1 to 1 1/2 hours, until a toothpick inserted in the center of the cake comes out clean.</li> 
-			</ul>
-		</div>
-		<div class="step2"> <img src="pan.jpg" width="300"></div>
-	</div>
-	<div class="direction">
-		<div class="step">
-			<ul> 
-				<li>Final Result</li> 
-			</ul>
-		</div>
-		<div class="step"> <img src="done.jpg" width="300"></div>
-	</div>
+		</nav>
+	</header>
+	<main>
+		<h2>Overview</h2>
+			<p> <img src="done.jpg"> Pound cake refers to a type of cake traditionally made with a pound of each of four ingredients: flour, butter, eggs, and sugar. However, any cake made with a 1:1:1:1 ratio, by weight, of flour, butter, eggs, and sugar may also be called a pound cake, as it yields the same results.</p>
+		<hr>
+		<h2>Recipe</h2>
+			<p> <img src="bowl.jpg"> 
+				<ul>
+					<li> 1 and 2/3 cups cake flour</li>
+					<li> 1/2 teaspoon salt</li>
+					<li> 1 cup unsalted butter</li>
+					<li> 1 and 1/2 cup granulated sugar</li>
+					<li> 5 large eggs</li>
+					<li> 1 and 1/2 teaspoon vanilla extract</li>
+					<li> 1 teaspoon grated lemon zest (optional)</li>
+				</ul>
+			</p>
+		<h2>Direction</h2>
+			<p> <img src="pan.jpg"> 
+				<ul>
+					<li>Set oven rack to center position and preheat to 325 degrees f.</li>
+					<li>Grease a standard 9x5x3 metal loaf pan with crisco or softened butter-- dust with flour.</li>
+					<li>Sift flour and salt into a medium bowl and set aside.</li>
+					<li>Place butter in your mixing bowl and beat until smooth, creamy and light colored-- 30 seconds on a stand mixer, 60 seconds by hand.</li>
+					<li>Gradually add sugar and beat until butter is very white and fluffy.About 3 minutes on your stand mixer, 5 mins by hand.</li>
+					<li>Add the whole eggs, one at a time and beat for 20 seconds after each addition.</li>
+					<li>If it appears grainy and/or curdled then the temperature is probably too cold for the eggs to combine properly with the butter.Allow it to warm then rebeat for a few seconds</li>
+					<li>Add vanilla extract and beat for a few more seconds.</li>
+					<li>Sift the flour in three equal parts into the butter/sugar/egg mixture, folding gently into the after each addition until all the flour has been incorporated and the batter is well mixed.</li>
+					<li>Pour batter into prepared pan and bake for 70 minutes, rotating 180 degrees halfway thru the baking process.</li>
+					<li>Cool on rack for 5 minutes before removing from pan.</li>
+				</ul>
+			</p>
+	</main>
 </body>
 </html>

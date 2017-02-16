@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Navbar</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body{
+			font-family: Helvetica, Arial, sans-serif;
+		}
+
+		ul{
+			/* remove the bullet points*/
+			list-style-type: none;
+			overflow: hidden;
+			background-color: #999;
+			font-size: 0;
+		}
+
+		li{
+			display: inline-block;
+			background-color: red;
+			font-size: 16px;
+		}
+		li a{
+			display: block;
+			text-align: center;
+			width: 100px;
+			padding: 10px;
+			/* remove underline on links */
+			text-decoration: none;
+			/* change link color */
+			color: #333;
+			background-color: red;
+		}
+
+		li a.active{
+			background-color: red;
+		}
+
+		li a:hover{
+			background-color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#" class="active">Link1</a></li>
+		<li><a href="#">link 2</a></li>
+		<li><a href="#">link 3</a></li>
+		<li><a href="#">link 4</a></li>
+	</ul>
+</body>
+</html>

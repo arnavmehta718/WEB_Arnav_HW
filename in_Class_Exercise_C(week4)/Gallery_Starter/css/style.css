@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+/* font-family: 'Kaushan Script', cursive; */
+
+body{
+	font-family: 'Kaushan Script', cursive;
+}
+
+*{
+	margin: 0;
+	padding: 9;
+}
+
+html{
+	background: url('../img/bg.jpg') no-repeat center center fixed;
+	/* css 3 property check for compatibilty */
+	background-size: cover;
+}
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+.polaroid{
+	width: 240px;
+	display: inline-block;
+	margin: 20px;
+	position: relative;
+}
+
+.polaroid img{
+	width: 100%;
+	height: auto;
+	border: 10px solid cornsilk;
+	border-bottom-width: 45px;
+	/* css 3 propery by sure to check for prefixes and compatibilty */
+	/* box-shadow: x shadow | y shadow | blur | spread | color; */
+	/* chrome and safari older versions */
+	-webkit-box-shadow:box-shadow: 10px 10px 10px 5px rgba(10, 10, 10, .5)
+	/* firefox */
+	-moz-box-shadow:box-shadow: 10px 10px 10px 5px rgba(10, 10, 10, .5);
+	/* microsoft */
+	-ms-box-shadow:box-shadow: 10px 10px 10px 5px rgba(10, 10, 10, .5);
+	/* opera */
+	-o-box-shadow:box-shadow: 10px 10px 10px 5px rgba(10, 10, 10, .5);
+	box-shadow: 10px 10px 10px 5px rgba(10, 10, 10, .5)
+}
+
+.polaroid p{
+	position: absolute;
+	text-align: center;
+	width: 260px;
+	bottom: 14px;
+	color: #888;
+}
