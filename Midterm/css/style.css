@@ -1,0 +1,458 @@
+/*
+Responsive 996px grid system ~ Style CSS.
+Copyright 2013, Josh Cope
+*/
+
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
+   * {
+         margin: 0;
+         padding: 0;
+      }
+
+      body{
+         font-family: Helvetica, Arial, sans-serif;
+         background-image: url(../images/marble.jpg);
+         background-size: cover;
+
+      }
+
+      body,html{
+         height: 100%;
+      }
+      
+      a{
+         text-decoration: none;
+         color: black;
+         opacity: 0.7;
+      }
+
+      .bg{ 
+    /* The image used */
+         background-image: url(../images/restaurant.jpg);
+
+    /* Full height */
+         height: 100%; 
+
+    /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+
+      .dbg{ 
+    /* The image used */
+         background-image: url(../images/dessert.jpg);
+
+    /* Full height */
+         height: 100%; 
+
+    /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+
+      .sbg{ 
+    /* The image used */
+         background-image: url(../images/serendipity.jpg);
+
+    /* Full height */
+         height: 100%; 
+
+    /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+
+      div.container{
+         width: 100%;
+         line-height: 100%;
+         background-color: #999;
+         overflow: hidden;
+         position: fixed;
+         opacity: 0.7;
+      }
+
+      div h1{
+         display: inline-block;
+         padding-left: 20px;
+         height: 100px;
+         margin: 0px;
+         text-align: center;
+         line-height: 100px;
+         color: white;
+      }
+   
+
+
+      ul{   
+         display: inline-block;
+         /* remove the bullet points*/
+         list-style-type: none;
+         overflow: hidden;
+         font-size: 0;
+         float: right;
+         margin-right: 5%;
+      }
+
+      li{
+         display: inline-block;
+         background-color: none;
+         font-size: 16px;
+      }
+      li a{
+         display: block;
+         text-align: center;
+         width: auto;
+         /* remove underline on links */
+         text-decoration: none;
+         /* change link color */
+         transition: all 2.0 ease;
+         color: white;
+         height: 100px;
+         line-height: 100px;
+         font-size: 20px;
+         padding-left: 20px;
+         padding-right: 20px;
+         
+      }
+
+      div.container ul li a.active{
+         background-color: #777;
+         opacity: 0.9;  
+      }
+
+      li a:hover{
+         color: black;
+         background-color: #777;
+         opacity: 1.0;
+      } 
+
+      div.space h1{
+         padding-left: 30%;
+         color: black;
+         height: 60px;
+         font-size: 60px;
+         line-height: 60px;
+         padding-top: 100px;
+         text-align: left;
+         overflow: hidden; 
+      }
+
+      div.about{
+         background-image: url(../images/profile.jpg);
+         width: 60%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 30%;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         height: 500px;
+         overflow: hidden;
+      }
+
+      div.about p{
+         margin-left: 100px;
+         width: 40%;
+         text-align: left;
+         font-size: 25px;
+         background-color: black;
+         opacity: 0.7;
+         color: white;
+         height: 100%;
+         margin-top: 0px;
+      }
+
+      div.New h1{
+         padding-right: 20px;
+         color: black;
+         height: 60px;
+         font-size: 60px;
+         line-height: 60px;
+         padding-top: 100px;
+         text-align: right;
+         overflow: hidden; 
+         width: 68%;
+      }
+
+      div.new2{
+         background-image: url(../images/serendipity.jpg);
+         width: 60%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         margin-left: 10%;
+         height: 500px;
+         overflow: hidden;
+      }
+
+      div.new2 p{
+         margin-left: 55%;
+         width: 40%;
+         text-align: left;
+         font-size: 25px;
+         background-color: black;
+         opacity: 0.7;
+         color: white;
+         height: 100%;
+         margin-top: 0px;
+      }
+
+      div.top{
+         background-image: url(../images/tulsi.jpg);
+         width: 60%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 30%;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         height: 500px;
+         overflow: hidden;
+      }
+
+      div.top p{
+         margin-left: 100px;
+         width: 40%;
+         text-align: left;
+         font-size: 25px;
+         background-color: black;
+         opacity: 0.7;
+         color: white;
+         height: 100%;
+         margin-top: 0px;
+      }
+
+      div.most{
+         background-image: url(../images/otto.jpg);
+         width: 60%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         margin-left: 10%;
+         height: 500px;
+         overflow: hidden;
+      }
+
+      div.most p{
+         margin-left: 10%;
+         width: 40%;
+         text-align: left;
+         font-size: 25px;
+         background-color: black;
+         opacity: 0.7;
+         color: white;
+         height: 100%;
+         margin-top: 0px;
+      }
+
+      div.gap{
+         height:50px;
+      }
+
+      div.D1{
+         width:29.5%;
+         height: 360px;
+         overflow: hidden;
+         display: inline-block;
+         text-align: center;
+         margin-top: 20px;
+
+      }
+
+      .pol{
+         background-color: cornsilk;
+         width: 310px;
+         height: 350px;
+         text-align: center;
+         margin: auto;
+         box-shadow: 10px 10px 5px slategrey;
+      }
+
+      div.D1 img{
+         overflow: hidden;
+         padding-top: 5px;
+      }
+
+      div.D1 h4{
+         margin: 0;
+         line-height: 35px;
+      }
+      
+      div.D1 h4 a{
+         text-decoration: none;
+         display: block;
+         margin-left: 5px;
+         margin-right: 5px;
+         margin-top:5px;
+      }
+      
+      div.D1 h4 a:hover{
+         background-color: white;
+      }
+
+      div.list{
+         width: 100%;
+         text-align: center;
+      }
+
+      div.main{
+         width: 40%;
+         text-align: center;
+         display: inline-block;
+         background-color: gray;
+         opacity: 0.8;
+      }
+
+      div.main h1{
+         font-size: 80px;
+         margin-top: 15px;
+         color:black;
+      }
+
+      div.main p{
+         margin: auto;
+         font-size: 20px;
+         color: black;
+         text-align: center;
+      }
+
+      div.maps{
+         width: 100%;
+         height: 100%;
+         text-align: center;
+         padding-top: 100px;
+      }
+
+      div.m{
+         margin-left: 10%;
+      }
+
+      div.space-rest h1{
+         padding-left: 10%;
+         color: black;
+         height: 60px;
+         font-size: 60px;
+         line-height: 60px;
+         padding-top: 100px;
+         text-align: left;
+         overflow: hidden; 
+      }
+
+      div.assembly1{
+         display: inline-block;
+         width: 100%;
+      }
+
+      div.about-rest{
+         display: inline-block;
+         width: 80%;
+         margin: 10%;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         overflow: hidden;
+         background-color: white;
+         opacity: 0.7;
+      }
+
+      div.about-rest p{
+         text-align: left; 
+         font-size: 20px;
+         color: black;
+         height: 100%;
+         margin-top: 0px;
+         padding-left: 20px;
+      }
+
+       div.about-rest p a{
+         color: black;
+      }
+
+      div.about-rest li{
+         font-size: 30px;
+         width: 100%;
+         padding-left: 20px;
+      }
+
+      div.about-rest ul{
+         display: inline-block;
+         float: left;
+         width: 100%;
+      }
+      div.about-rest ul li{
+         display: inline-block;
+         width: 30%;
+         margin: 0;
+         text-align: center;
+         padding-left: 0;
+      }
+      div.about-rest ul p{
+         display: inline-block;
+         width: 30%;
+         margin: 0;
+         text-align: center;
+         font-size: 40px;
+         padding-left: 0;
+      
+      }
+
+/* =============================================================================
+   Page Styles
+   ========================================================================== */
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.container{
+		background: rgba(255,0,0,0.5);
+	}
+}
+	
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	.container{
+		background: rgba(0,255,0,0.5);
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container{
+		background: rgba(0,0,255,0.5);
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+	.container{
+		background: rgba(255,255,0,0.5);
+	}
+}
+
+
+/* =============================================================================
+   Font-Face
+   ========================================================================== */
+/* This is the proper syntax for an @font-face file
+
+/* @font-face {
+font-family: 'FontName';
+src: url('../fonts/FontName.eot');
+src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
+url('../fonts/FontName.woff') format('woff'),
+url('../fonts/FontName.ttf') format('truetype'),
+url('../fonts/FontName.svg#FontName') format('svg');
+font-weight: normal;
+font-style: normal; }
+*/
