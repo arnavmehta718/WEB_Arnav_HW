@@ -1,2 +1,4 @@
-http://sites.bxmc.poly.edu/~arnavmehta/WebDesign/ link to website
+
+
+Blog Post: http://sites.bxmc.poly.edu/~arnavmehta/WebDesign/
 
