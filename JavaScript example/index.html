@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<style>
+		#Screen {
+			width: 600px;
+			height: 600px;
+			position: relative;
+			background: rgb(100,200,100);
+		}
+		#target {
+			width: 100px;
+			height: 50px;
+			position: absolute;
+			border: 2px dotted green;
+		}
+		div h3{
+			color: green;
+			text-align: center;
+		}
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		var colour = 1;
+	    $("#color").click(function(){
+	    	if(colour == 1) {
+		        $("#Screen").css("background", "rgb(100,50,100)");
+		        $("#target").css("border-color", "rgb(75,120,200)");
+		        $("h3").css("color", "rgb(75,120,200)");
+		        colour = 2;
+		    } else{
+		    	$("#Screen").css("background", "rgb(100,200,100)");
+		        $("#target").css("border-color", "green");
+		        $("h3").css("color", "green");
+		        colour = 1;
+		    }
+	    });
+	});
+	</script>
+<body>
+	<p>
+		<button id= "color" onclick="colorSwap()">Change Color</button>
+		<button onclick="myMove()">Move</button>
+	</p>
+
+	<div id="Screen">
+	<div id="target">
+		<h3>Follow Me</h3>
+	</div>
+	</div>
+
+
+	<script>
+		function myMove() {
+		  var elem = document.getElementById("target");   
+		  var pos = 0;
+		  var pos2 = 0;
+		  var id = setInterval(frame, 10);
+		  function frame() {
+		    if (pos == 499) {
+		      pos = -498;
+		    } else{
+		      pos++; 
+		      elem.style.left = Math.abs(pos) + 'px'; 
+		    }
+		    if (pos2 == 549) {
+		    	pos2 = -548;
+		    } else {
+		    	pos2++;
+		    	elem.style.top= Math.abs(pos2) + 'px';
+		    }
+		  }
+		}
+
+		function colorSwap() {
+			var r1 = Math.floor((Math.random()*255) + 1);
+			var r2 = Math.floor((Math.random()*255) + 1);
+			var g1 = Math.floor((Math.random()*255) + 1);
+			var g2 = Math.floor((Math.random()*255) + 1);
+			var b1 = Math.floor((Math.random()*255) + 1);
+			var b2 = Math.floor((Math.random()*255) + 1);
+
+			document.getElementById("Screen").style.backgroundColor = "rgba(r1,g1,b1,1)";
+			document.getElementById("target").style.backgroundColor = "rgba(r2,g2,b2,1)";
+		}
+
+
+</script>
+</body>
+</html> 
