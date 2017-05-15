@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Green Tea</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="https://cdjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="tea.css">
+</head>
+<body>
+
+<nav class="navbar navigation" id="nav">
+		<div class="header">
+			<ul>
+				<li><a href="BlackTea.html">Black Tea</a></li>
+				<li><a href="OolongTea.html">Oolong Tea</a></li>
+			<h1 class="brandName"><a href="Mainpage.html">Tea-Ville</a></h1>
+				<li><a href="GreenTea.html">Green Tea</a></li>
+				<li><a href="HerbalTea.html">Herbal Tea</a></li>
+			</ul>
+		</div>
+</nav>
+
+
+<div class="bg">
+	<img src="Photos/green-tea.jpg">
+	<h1>Green Tea</h1>
+</div>
+
+<div class="container-fluid" id="about">
+	<h1>What is...Green Tea</h1>
+	<p>Made from the same leaves as oolong teas, however it goes through a completely different process. Green tea originated in China, but its production has spread to many countries in Asia. Several varieties of green tea exist, which differ substantially because of the variety of growing conditions, horticultural methods, production processing, and time of harvest. Green tea extracts have been used in traditional Chinese and Indian medicine for a variety of uses.Green tea leaves are initially processed by soaking in an alcohol solution, which may be further concentrated to various levels; byproducts of the process are also packaged and used. Extracts may be sold in liquid, powder, capsule, or tablet form.</p>
+</div>
+
+<div class=" continer-fluid list-item col-md-12">
+	<div class="col-md-1"></div>
+	<ul class="col-md-10">
+
+		<li class="col-md-4">
+			<img src="Photos/match.jpg">
+			<p><strong>Powdered green leaves, packed with flavor</strong> Stone-grinded leaves that are sweeping the nation, with its taste as well as uses. Reacently being used as a complent to many dessert around the world. Prime example: Mochi</p>
+			<h5>Matcha</h5>
+		</li>
+		<li class="col-md-4" id="pic2">
+			<img src="Photos/anj.jpg">
+			<p><strong>Taste the natural sweetness of young, tender tea buds.</strong>This renowned Chinese tea is harvested in early spring, before the tea buds and leaves turn from white to green. Known as “sparrow-tongue” for its unique shape, Anji Bai Cha offers the perfect balance of sweetness and umami, with minimum astringency.</p>
+			<h5>Anji Bai Cha</h5>
+		</li>
+		<li class="col-md-4" id="pic3">
+			<img src="Photos/uji.jpg">
+			<p><strong>Sip world-class flavor from the birthplace of Japanese green teas.</strong>Hailing from the Uji region of Kyoto, this medium-bodied tea is renowned for its bright emerald color and oceanic umami flavor. In a country where most teas are harvested by machine, this lot is handpicked and hand-processed after three weeks of shade growth</p>
+			<h5>Uji Gyokuro</h5>
+		</li>
+		<li class="col-md-4" id="pic4">
+			<img src="Photos/moroccan.jpg">
+			<p><strong>Robust green tea with refreshing spearmint</strong>This exciting and refreshing blend of Chinese gunpowder green tea and Moroccan spearmint mingle together with every refined and pleasing sip.</p>
+			<h5>Moroccan Mint</h5>
+		</li>
+		<li class="col-md-4" id="pic5">
+			<img src="Photos/chunme.jpg">
+			<p><strong>Acidic yet effective</strong>This Popular Green tea,is bright,tangy and toasty warm clean finishing. Day or night the Chun Me we be sure to delight and leave a  well-rounded aftertaste.</p>
+			<h5>Chun Me</h5>
+		</li>
+		<li class="col-md-4" id="pic6">
+			<img src="Photos/dragonwell.jpg">
+			<p><strong>Lightly sweet with a smooth texture and a hint of lingering chestnut</strong>Hand-flattened jade-green leaves create a mellow-sweet taste with chestnut overtones. Natural sweetness from the jade-green leaf establishes complexity in this renowned sweet nutty tea.</p>
+			<h5>Dragonwell</h5>
+		</li>
+	</ul>
+</div>
+	<div class="footer col-md-12">
+		<ul>
+			<li>
+			    <a class="btn btn-social-icon btn-twitter">
+				   <span class="fa fa-twitter"></span>
+				</a>
+			</li>
+			<li>
+			    <a class="btn btn-social-icon btn-facebook">
+				   <span class="fa fa-facebook"></span>
+				</a>
+			</li>
+			<li>
+			    <a class="btn btn-social-icon btn-instagram">
+				   <span class="fa fa-instagram"></span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+<script type="text/javascript">
+	var controller = new ScrollMagic.Controller();
+
+	var scene1 = new ScrollMagic.Scene({
+		triggerElement: '#about'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#nav", 0.75, {y:-75, opacity:100}))
+		.addTo(controller);
+</script>
+
+</body>
+</html>

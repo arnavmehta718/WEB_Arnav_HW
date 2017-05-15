@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+<nav class="navbar navigation" id='nav'>
+		<div class="header">
+			<ul>
+				<li><a href="BlackTea.html">Black Tea</a></li>
+				<li><a href="OolongTea.html">Oolong Tea</a></li>
+			<h1 class="brandName"><a href="Mainpage.html">Tea-Ville</a></h1>
+				<li><a href="GreenTea.html">Green Tea</a></li>
+				<li><a href="HerbalTea.html">Herbal Tea</a></li>
+			</ul>
+		</div>
+</nav>
+
+
+<div id="teaCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#teaCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#teaCarousel" data-slide-to="1"></li>
+    <li data-target="#teaCarousel" data-slide-to="2"></li>
+    <li data-target="#teaCarousel" data-slide-to="3"></li>
+ 
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <a href="GreenTea.html"><img src="Photos/green-tea.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        <h6>Green Tea</h6>
+      </div>
+    </div>
+
+    <div class="item">
+      <a href="BlackTea.html"><img src="Photos/black-tea.jpg" alt="..."></a>
+      <div class="carousel-caption">
+       <h6>Black Tea
+      </div>
+    </div>
+
+    <div class="item">
+      <a href="OolongTea.html"><img src="Photos/oolong-tea.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        <h6>Oolong Tea</h6>
+      </div>
+    </div>
+
+    <div class="item">
+      <a href="HerbalTea.html"><img src="Photos/herbal-tea.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        <h6>Herbal Tea</h6>
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#teaCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#teaCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<div class="container-fluid">
+	<div class="container col-md-6" id="history">
+		<!-- <h1 id="title1">History</h1> -->
+		<p id="main1">Tea originated from China, where evidence has found that the first tea drinkers originated during the Han Dynasty as earliest as 2nd Century BC. It was used as medicine and still has healing properties. During the Han Dynasty was the first reference of boiling tea, whihc was a task undertaken by the youth. However before the mid-8th century Tea was primarily a southern Chinese drink, that become popular through China during the Tang Dynasty, and later spread to Korea, Japan, and Veitnam. It was considred an key ingredient to the elixer of life. During the Song dynasty(960-1279) the practice of loose-leafs style was adopted as a way to preserve flavor, and a powdered version was also introduced. By the Yuan and Mind Dynasty. a for of pan-frying leaves was a practice to introduce more flavor within the system. Traditional tea was a laborious process. When it spread to Japan, it became a drink of religious classes. Green tea became widly popular, and in Korea tea was offered to ancestral gods. In India tea was introduced by the british to break China's monopoly on Tea. Tea was first commercial produced whe the British East India Company pointed large plots of land for Tea growth. Since the introduction Indian has become the largest consumer of tea worldwide, while China produces the most tea worldwide.</p>
+	</div>
+	<div class=" container col-md-6" id="history2">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 imagescon">
+			<h1 id="title2">Origin</h1>
+			<img src="Photos/history.jpg" id="imghistory">
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="container2 col-md-6" id="leaves2">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 imagescon">
+			<h1 id="title3">Western adoption</h1>
+			<img src="Photos/british.jpg" id="imghistory">
+			</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div class="container2 col-md-3" id="leaves">
+		<p>Although Europeans first started importing tea in the 17th century, it appeared earlier in the West. Traders, missionaries and explorers traveling back and forth between Europe and the Orient became exposed to the budding tea traditions in China and Japan. Tea finally arrived in the West during the 16th century - a Portuguese missionary is attributed with bringing tea to Europe while caravanning back and forth between Portugal and China. Tea was not seriously traded though until Dutch merchants entered the picture. In 1610, the first shipments of Japanese and Chinese tea arrived in Europe via ships charted by the Dutch East India Company. Tea also flowed into Russia early on via camel trains that came from China on part of the famous Silk Road. The popularity of tea slowly spread across major cities, such as Amsterdam, Paris and London. Though high prices limited consumption. Initially tea was not adopted by the british. Unitl 1657 when tea was sold in shop, and consumption slowly rose. Tea cam to America through the Dutch trade, but was heavily taxed, and the Boston Tea Party was a protest to counter act the high taxes.</p>
+	</div>
+</div>
+<div class="About">
+	<h1 id= teavscof>Tea vs Coffee</h1>
+</div>
+<div class="container-fluid">
+	<div class="container3 col-md-6" id="aboutMe">
+		<img src="Photos/tea.jpg" class="col-md-6" id="meimg1">
+		<p class="col-md-6" id="mepara1">A hot cup of coffee can perk you up in the morning. A soothing cup of tea can help you relax after a stressful day. Various studies have pointed to tea drinkers having lower odds of skin, breast, and prostate cancers. Coffee has a higher caffeine content than tea, meaning its levels of the stimulant might help people with asthma by relaxing the lung's airways. Caffeine also helps in constricting blood vessels in the brain and reducing migraines, and often alleviates hangovers because of this. Tea has often been considered a therapeutic or medicinal drink that has both soothing and rejuvenating qualities.</p>
+	</div>
+	<div class="container3 col-md-6" id="aboutMe2">
+		<p class="col-md-6" id="mepara2">As with anything that contains caffeine, way too much coffee and tea could result in increased anxiety, tachycardia, heart palpitations, insomnia, restlessness, and nausea. High amounts of unfiltered coffee, meanwhile, has been linked to higher levels of bad cholesterol, LDL. Tea contains fluoride, and while this is good for your dental health, too much of it may increase your risk of brittle bones and osteofluorosis. Certain tea blends from China, India, or Sri Lanka have been found to contain aluminum and risky amounts of lead, so where you get your tea is pretty important.</p>
+		<img src="Photos/coffee.jpg" class="col-md-6" id="meimg2">
+	</div>
+</div>
+<div class="footer col-md-12">
+		<ul>
+			<li>
+			    <a class="btn btn-social-icon btn-twitter">
+				   <span class="fa fa-twitter"></span>
+				</a>
+			</li>
+			<li>
+			    <a class="btn btn-social-icon btn-facebook">
+				   <span class="fa fa-facebook"></span>
+				</a>
+			</li>
+			<li>
+			    <a class="btn btn-social-icon btn-instagram">
+				   <span class="fa fa-instagram"></span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+
+<script type="text/javascript">
+	// var title1 = document.getElementById('title1');	
+	var title2 = document.getElementById('title2');
+	var controller = new ScrollMagic.Controller();
+
+	var scene0 = new ScrollMagic.Scene({
+		triggerElement: '#history'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#nav", 0.75, {y:-75, opacity:100}))
+		.addTo(controller);
+
+	var scene1 = new ScrollMagic.Scene({
+		triggerElement: '#history'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#history", 2, {x:-750, opacity:0}))
+		.addTo(controller);
+
+	var scene3 = new ScrollMagic.Scene({
+		triggerElement: '#history'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#history2", 2, {x:-750}))
+		.addTo(controller);
+
+	var scene2 = new ScrollMagic.Scene({
+		triggerElement: '#leaves'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#leaves", 2, {x:750, opacity:0}))
+		.addTo(controller);
+
+	var scene4 = new ScrollMagic.Scene({
+		triggerElement: '#leaves'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#leaves2", 2, {x:750}))
+		.addTo(controller);
+
+	var scene5 = new ScrollMagic.Scene({
+		triggerElement: '#teavscof'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#meimg1", 2, {x:375}))
+		.addTo(controller);
+
+	var scene6 = new ScrollMagic.Scene({
+		triggerElement: '#teavscof'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#meimg2", 2, {x:-375}))
+		.addTo(controller);
+
+	var scene7 = new ScrollMagic.Scene({
+		triggerElement: '#teavscof'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#mepara1", 2, {x:375, opacity:0}))
+		.addTo(controller);
+
+	var scene8 = new ScrollMagic.Scene({
+		triggerElement: '#teavscof'
+		//TweenMax.from(title1, 2, {x:-1000, opacity:0});
+		}).setTween(TweenMax.from("#mepara2", 2, {x:-375, opacity:0}))
+		.addTo(controller);
+
+
+</script>
+
+</body>
+</html>
